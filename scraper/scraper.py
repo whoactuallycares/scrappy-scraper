@@ -3,7 +3,7 @@ from dbConnector import *
 import json
 
 ELEMENTS_PER_PAGE = 20
-PAGES_TO_LOAD = 1 
+PAGES_TO_LOAD = 25 
 
 # Using scrapy here is somewhat unnecessary since the data is already in a computer readable format
 class FlatSpider(Spider):
